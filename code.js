@@ -32,22 +32,15 @@ function game() {
 
     console.log(cpu_res);
 
-
-
-
 }
 
 function Paper() {
-    paper.innerHTML ="<img src=assets/images/papper.png></img>";
+    paper.innerHTML =`<img class="imagem"src=assets/images/papper.png></img>`;
     scissor.innerHTML=`<h2>X</h2>`;
 
-
-
-    let random1=rock.innerHTML="<img src='assets/images/papper.png'</img>";
-    let random2=rock.innerHTML="<img src='assets/images/Scissor.png'</img>";
-    let random3=rock.innerHTML="<img src='assets/images/rock.png'</img>";
-
-
+    let random1=rock.innerHTML=`<img class="imagem"src='assets/images/papper.png'</img>`;
+    let random2=rock.innerHTML=`<img class="imagem"src='assets/images/Scissor.png'</img>`;
+    let random3=rock.innerHTML=`<img class="imagem"src='assets/images/rock.png'</img>`;
 
 
     let cpu=[`${random1}`,`${random2}`,`${random3}`];
@@ -69,16 +62,12 @@ function Paper() {
 }
 
 function Scissor() {
-    paper.innerHTML ="<img src=assets/images/Scissor.png></img>";
+    paper.innerHTML =`<img class="imagem" src=assets/images/Scissor.png></img>`;
     scissor.innerHTML=`<h2>X</h2>`;
 
-
-
-    let random1=rock.innerHTML="<img src='assets/images/papper.png'</img>";
-    let random2=rock.innerHTML="<img src='assets/images/Scissor.png'</img>";
-    let random3=rock.innerHTML="<img src='assets/images/rock.png'</img>";
-
-
+    let random1=rock.innerHTML=`<img class="imagem" src='assets/images/papper.png'</img>`;
+    let random2=rock.innerHTML=`<img class="imagem" src='assets/images/Scissor.png'</img>`;
+    let random3=rock.innerHTML=`<img class="imagem" src='assets/images/rock.png'</img>`;
 
 
     let cpu=[`${random1}`,`${random2}`,`${random3}`];
@@ -101,16 +90,13 @@ function Scissor() {
 
 
 function Rock() {
-    paper.innerHTML ="<img src=assets/images/rock.png></img>";
+    paper.innerHTML =`<img class="imagem" src=assets/images/rock.png></img>`;
     scissor.innerHTML=`<h2>X</h2>`;
 
 
-
-    let random1=rock.innerHTML="<img src='assets/images/papper.png'</img>";
-    let random2=rock.innerHTML="<img src='assets/images/Scissor.png'</img>";
-    let random3=rock.innerHTML="<img src='assets/images/rock.png'</img>";
-
-
+    let random1=rock.innerHTML=`<img class="imagem" src='assets/images/papper.png'</img>`;
+    let random2=rock.innerHTML=`<img class="imagem" src='assets/images/Scissor.png'</img>`;
+    let random3=rock.innerHTML=`<img class="imagem" src='assets/images/rock.png'</img>`;
 
 
     let cpu=[`${random1}`,`${random2}`,`${random3}`];
